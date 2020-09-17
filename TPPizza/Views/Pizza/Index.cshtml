@@ -15,8 +15,8 @@
         <th>
             @Html.DisplayNameFor(model => model.Nom)
         </th>
-        <th>Ingrédients</th>
-        <th>Pate</th>
+        <th>@Html.DisplayNameFor(model => model.Ingredients)</th>
+        <th>@Html.DisplayNameFor(model => model.Pate)</th>
         <th>Actions</th>
     </tr>
 @foreach (var item in Model) {
